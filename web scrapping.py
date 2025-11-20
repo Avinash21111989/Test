@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup as bs
-print("hii")
+print("hello")
 github_user = input('Input Github user: ')
 url = 'https://github.com/' + github_user
 r = requests.get(url)
